@@ -21,7 +21,7 @@ for i in range(0,100):
 	cv2.imshow('video', frame)
 	# if not os.path.exists(personx):
 		# os.mkdir(personx,0755)
-	file= "/home/choco/dataset/person1/"+str(i)+".jpg"
+	file= "/Users/Anushri-MacBook/Desktop/dataset/person1/"+str(i)+".jpg"
 	cv2.imwrite(file, frame)
 	x=0	
 	for x in range(0,skip_frames):
